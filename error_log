@@ -1,0 +1,81 @@
+[18-Dec-2017 10:47:28 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/previewmahac/public_html/steel/wp-content/themes/_s/archive.php on line 32
+[18-Dec-2017 11:30:22 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/previewmahac/public_html/steel/wp-content/themes/_s/archive-products.php on line 33
+[18-Dec-2017 18:31:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_feild() in /home/previewmahac/public_html/steel/wp-content/themes/_s/template-parts/content-products.php:18
+Stack trace:
+#0 /home/previewmahac/public_html/steel/wp-includes/template.php(690): require()
+#1 /home/previewmahac/public_html/steel/wp-includes/template.php(647): load_template('/home/previewma...', false)
+#2 /home/previewmahac/public_html/steel/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /home/previewmahac/public_html/steel/wp-content/themes/_s/single.php(14): get_template_part('template-parts/...', 'products')
+#4 /home/previewmahac/public_html/steel/wp-includes/template-loader.php(74): include('/home/previewma...')
+#5 /home/previewmahac/public_html/steel/wp-blog-header.php(19): require_once('/home/previewma...')
+#6 /home/previewmahac/public_html/steel/index.php(17): require('/home/previewma...')
+#7 {main}
+  thrown in /home/previewmahac/public_html/steel/wp-content/themes/_s/template-parts/content-products.php on line 18
+[18-Dec-2017 19:29:31 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home/previewmahac/public_html/steel/wp-content/themes/_s/page-about-us.php on line 33
+[18-Dec-2017 19:29:48 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home/previewmahac/public_html/steel/wp-content/themes/_s/page-about-us.php on line 33
+[18-Dec-2017 19:29:53 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home/previewmahac/public_html/steel/wp-content/themes/_s/page-about-us.php on line 33
+[18-Dec-2017 20:07:53 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/previewmahac/public_html/steel/wp-content/themes/_s/template-parts/content.php on line 35
+[18-Dec-2017 20:30:55 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ']' in /home/previewmahac/public_html/steel/wp-content/themes/_s/comments.php on line 72
+[18-Dec-2017 20:35:32 UTC] PHP Parse error:  syntax error, unexpected ''comment_field'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/previewmahac/public_html/steel/wp-content/themes/_s/comments.php on line 30
+[18-Dec-2017 20:35:39 UTC] PHP Parse error:  syntax error, unexpected ''comment_field'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/previewmahac/public_html/steel/wp-content/themes/_s/comments.php on line 30
+[18-Dec-2017 20:58:33 UTC] PHP Fatal error:  Cannot redeclare wpb_move_comment_field_to_bottom() (previously declared in /home/previewmahac/public_html/steel/wp-content/themes/_s/comments.php:21) in /home/previewmahac/public_html/steel/wp-content/themes/_s/comments.php on line 26
+[18-Dec-2017 21:11:40 UTC] PHP Parse error:  syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/previewmahac/public_html/steel/wp-content/themes/_s/functions.php on line 378
+[18-Dec-2017 21:12:13 UTC] PHP Parse error:  syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/previewmahac/public_html/steel/wp-content/themes/_s/functions.php on line 378
+[18-Dec-2017 21:14:32 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/previewmahac/public_html/steel/wp-content/themes/_s/comments.php on line 61
+[18-Dec-2017 21:15:19 UTC] PHP Parse error:  syntax error, unexpected 'mytheme_comment' (T_STRING), expecting '(' in /home/previewmahac/public_html/steel/wp-content/themes/_s/comments.php on line 64
+[18-Dec-2017 21:17:05 UTC] PHP Catchable fatal error:  Object of class WP_Comment could not be converted to string in /home/previewmahac/public_html/steel/wp-content/themes/_s/comments.php on line 65
+[18-Dec-2017 21:38:17 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/previewmahac/public_html/steel/wp-content/themes/_s/archive.php on line 35
+[18-Dec-2017 23:19:51 UTC] PHP Parse error:  syntax error, unexpected 'post' (T_STRING), expecting ',' or ';' in /home/previewmahac/public_html/steel/wp-content/themes/_s/inc/jetpack.php on line 61
+[23-Dec-2017 00:39:04 UTC] PHP Parse error:  syntax error, unexpected ''handle'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/previewmahac/public_html/steel/wp-content/themes/_s/inc/jetpack.php on line 24
+[23-Dec-2017 00:39:17 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/previewmahac/public_html/steel/wp-content/themes/_s/inc/jetpack.php on line 24
+[23-Dec-2017 00:39:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function replace() in /home/previewmahac/public_html/steel/wp-content/themes/_s/inc/jetpack.php:24
+Stack trace:
+#0 /home/previewmahac/public_html/steel/wp-includes/class-wp-hook.php(286): _s_jetpack_setup('')
+#1 /home/previewmahac/public_html/steel/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/previewmahac/public_html/steel/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/previewmahac/public_html/steel/wp-settings.php(434): do_action('after_setup_the...')
+#4 /home/previewmahac/public_html/steel/wp-config.php(89): require_once('/home/previewma...')
+#5 /home/previewmahac/public_html/steel/wp-load.php(37): require_once('/home/previewma...')
+#6 /home/previewmahac/public_html/steel/wp-blog-header.php(13): require_once('/home/previewma...')
+#7 /home/previewmahac/public_html/steel/index.php(17): require('/home/previewma...')
+#8 {main}
+  thrown in /home/previewmahac/public_html/steel/wp-content/themes/_s/inc/jetpack.php on line 24
+[27-Dec-2017 23:30:10 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/previewmahac/public_html/steel/wp-content/themes/_s/search.php on line 50
+[27-Dec-2017 23:34:25 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/previewmahac/public_html/steel/wp-content/themes/_s/template-parts/content-none.php on line 41
+[28-Dec-2017 01:14:27 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/previewmahac/public_html/steel/wp-content/themes/_s/index.php on line 311
+[28-Dec-2017 01:25:43 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/previewmahac/public_html/steel/wp-content/themes/_s/index.php on line 225
+[28-Dec-2017 01:26:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_repeater_field() on null in /home/previewmahac/public_html/steel/wp-content/themes/_s/index.php:84
+Stack trace:
+#0 /home/previewmahac/public_html/steel/wp-includes/template-loader.php(74): include()
+#1 /home/previewmahac/public_html/steel/wp-blog-header.php(19): require_once('/home/previewma...')
+#2 /home/previewmahac/public_html/steel/index.php(17): require('/home/previewma...')
+#3 {main}
+  thrown in /home/previewmahac/public_html/steel/wp-content/themes/_s/index.php on line 84
+[28-Dec-2017 01:27:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Post::the_repeater_field() in /home/previewmahac/public_html/steel/wp-content/themes/_s/index.php:84
+Stack trace:
+#0 /home/previewmahac/public_html/steel/wp-includes/template-loader.php(74): include()
+#1 /home/previewmahac/public_html/steel/wp-blog-header.php(19): require_once('/home/previewma...')
+#2 /home/previewmahac/public_html/steel/index.php(17): require('/home/previewma...')
+#3 {main}
+  thrown in /home/previewmahac/public_html/steel/wp-content/themes/_s/index.php on line 84
+[28-Dec-2017 01:41:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in /home/previewmahac/public_html/steel/wp-content/themes/_s/index.php:43
+Stack trace:
+#0 /home/previewmahac/public_html/steel/wp-includes/template-loader.php(74): include()
+#1 /home/previewmahac/public_html/steel/wp-blog-header.php(19): require_once('/home/previewma...')
+#2 /home/previewmahac/public_html/steel/index.php(17): require('/home/previewma...')
+#3 {main}
+  thrown in /home/previewmahac/public_html/steel/wp-content/themes/_s/index.php on line 43
+[28-Dec-2017 01:41:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in /home/previewmahac/public_html/steel/wp-content/themes/_s/index.php:43
+Stack trace:
+#0 /home/previewmahac/public_html/steel/wp-includes/template-loader.php(74): include()
+#1 /home/previewmahac/public_html/steel/wp-blog-header.php(19): require_once('/home/previewma...')
+#2 /home/previewmahac/public_html/steel/index.php(17): require('/home/previewma...')
+#3 {main}
+  thrown in /home/previewmahac/public_html/steel/wp-content/themes/_s/index.php on line 43
+[28-Dec-2017 01:42:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in /home/previewmahac/public_html/steel/wp-content/themes/_s/index.php:43
+Stack trace:
+#0 /home/previewmahac/public_html/steel/wp-includes/template-loader.php(74): include()
+#1 /home/previewmahac/public_html/steel/wp-blog-header.php(19): require_once('/home/previewma...')
+#2 /home/previewmahac/public_html/steel/index.php(17): require('/home/previewma...')
+#3 {main}
+  thrown in /home/previewmahac/public_html/steel/wp-content/themes/_s/index.php on line 43

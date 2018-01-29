@@ -1,0 +1,5 @@
+[17-Dec-2017 22:52:11 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
+[18-Dec-2017 23:19:49 UTC] PHP Parse error:  syntax error, unexpected 'post' (T_STRING), expecting ',' or ';' in /home/previewmahac/public_html/steel/wp-content/themes/_s/inc/jetpack.php on line 61
+[27-Dec-2017 23:02:23 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/previewmahac/public_html/steel/wp-content/themes/_s/functions.php on line 432
+[27-Dec-2017 23:06:14 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'display_footer_map_element' not found or invalid function name in /home/previewmahac/public_html/steel/wp-admin/includes/template.php on line 1378
+[27-Dec-2017 23:07:05 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'display_footer_map_element' not found or invalid function name in /home/previewmahac/public_html/steel/wp-admin/includes/template.php on line 1378
